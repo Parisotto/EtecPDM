@@ -1,4 +1,5 @@
 /*
+    Atualizado e 30/08/2024 para a Etec JRM
     Exercício de reforço: Variáveis, tipo de dados e operadores aritméticos
 
     a. Crie um novo arquivo chamado A04_Exercicio.kt com uma função main.
