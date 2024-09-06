@@ -29,7 +29,6 @@ fun main() {
     contador--
     println("4) $contador")
     println("5) ${--contador}")
-
     println("6) ${++contador}")
 }
 
