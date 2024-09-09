@@ -1,4 +1,5 @@
 // Aula 2: Variáveis e tipos de dado
+
 fun main() {
     val umByte: Byte = 127 // 1 byte ou 8 bits: -128 a 127
     val umShort: Short = 32767 // 2 bytes ou 16 bits: -32768 a 32767
