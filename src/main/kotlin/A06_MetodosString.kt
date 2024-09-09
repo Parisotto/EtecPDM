@@ -1,3 +1,4 @@
+// Aula 6: Métodos e propriedades de String
 fun main() {
     val str = "Programação Kotlin."
 

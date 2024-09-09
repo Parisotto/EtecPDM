@@ -1,6 +1,5 @@
+// Aula 3: Operadores Aritméticos: ( + - * / % )
 fun main() {
-    // Aula 3: Operadores Aritméticos: ( + - * / % )
-
     var idade = 20
     //idade = idade + 1
     idade += 1 // soma (+)

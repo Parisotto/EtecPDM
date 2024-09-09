@@ -1,6 +1,5 @@
+// Aula 1: Primeiro contato
 fun main() {
-    // Aula 1: Primeiro contato
-
     println("Olá, mundo!")
 
     print("Edson")
