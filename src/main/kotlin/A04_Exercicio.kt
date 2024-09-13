@@ -1,5 +1,5 @@
-// Aula 4: Exercícios de reforço
 /*
+Aula 4: Exercícios de reforço
 Variáveis, tipo de dados e operadores aritméticos
 
 a. Crie um novo arquivo chamado A04_Exercicio.kt com uma função main.
