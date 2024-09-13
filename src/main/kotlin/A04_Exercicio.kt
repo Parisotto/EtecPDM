@@ -9,5 +9,5 @@
     e. Declare uma variável capaz de armazenar o PIB do Brazil este ano de 2024 que é cerca de 10.900.000.000.000 (10,9 trilhões)
     f. Declare uma variável capaz de armazenar a população do Brasil em 2024 que é cerca de 212.600.000 (212,6 milhões)
     g. Imprima no terminal o valor do PIB per capita.
-    h. Rode seu prograa de maneira que não possua erros de compilação ou execução.
+    h. Rode seu programa de forma que não possua erros de compilação ou execução.
 */

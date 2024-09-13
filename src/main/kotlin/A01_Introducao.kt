@@ -1,28 +1,28 @@
 // Aula 1: Primeiro contato
 
 fun main() {
-    println("Olá, mundo!")
+    println("1. Olá, mundo!")
 
-    print("Edson")
+    print("2. Edson")
     print(" ")
     print("Parisotto")
 
     println()
 
-    var nome = "Edson\nLuiz\nParisotto"
+    var nome = "3. Edson\nLuiz\nParisotto"
     println(nome)
 
     // var nome = "Não posso redeclarar uma variável"
-    nome = "Edson"
-    print("Olá, " + nome + "\n")
+    nome = "Edson" // mas posso reatribuir um novo valor
+    print("4. Olá, " + nome + "\n")
 
     var sobrenome = "Parisotto"
-    println("Como vai, $nome $sobrenome?")
+    println("5. Como vai, $nome $sobrenome?")
 
     val variavelEstatica = "Bom dia"
-    // variavelEstatica = "Não posso reatribuir!"
+    // variavelEstatica = "Não posso reatribuir um novo valor!"
 
-    val nomeCompleto = nome + " Luiz " + sobrenome
+    val nomeCompleto = "6. " + nome + " Luiz " + sobrenome
     println(nomeCompleto)
-    println("$variavelEstatica, ${nomeCompleto}!")
+    println("7. $variavelEstatica, ${nomeCompleto}!")
 }

@@ -1,13 +1,13 @@
 // Aula 5: Funções
 
 fun main(){
-    println("Início")
+    println("prinln() é uma função utilitária e main() também é uma função")
 
     bomDia()
     bomDia()
     bomDia()
 
-    ola("Edson")
+    hello("Edson")
     println(soma(3, 9))
     println(subtracao(10.0))
 
@@ -19,6 +19,8 @@ fun main(){
     println(resultado * soma(2, 5))
     println(soma(3, resultado) * subtracao(2.0, resultado))
 
+    mensagem("Edson")
+    mensagem("Edson", "Parisotto")
     mensagem("Edson", 61)
     mensagem(61, "Edson")
 }
@@ -28,10 +30,10 @@ fun bomDia(){
 }
 fun bonDia2() = println("Bom dia!")
 
-fun ola(nome:String){
+fun hello(nome:String){
     println("Olá, $nome")
 }
-fun ola2(nome: String) = println("Olá, $nome")
+fun hello2(nome: String) = println("Olá, $nome")
 
 fun soma(a: Int, b: Int):Int {
     return a + b
