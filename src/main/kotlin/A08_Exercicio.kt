@@ -3,11 +3,11 @@
     Métodos e Funções
 */
 fun main(){
-    // tranformar(2)
-     println(caracteres2("Kotlin"))
-     cubo2(3)
-     converter2(2)
-    // trocarLetras("Anaconda!")
+    //tranformar(2)
+    println(caracteres2("Kotlin"))
+    cubo2(3)
+    converter2(100)
+    //trocarLetras("Anaconda!")
 }
 
 /* a. Escreva uma função que seja capaz de receber a quantidade de anos e
@@ -45,7 +45,13 @@ fun converter(milhas: Int){
         2. Escrever uma função para a troca de letras e impressão do valor final.
         3. String final deve estar com todas as letras minúsculas. */
 fun trocarLetras(texto: String){
-    println(texto.lowercase().replace("a", "x"))
+    //println(texto.lowercase().replace("a", "x"))
+    //println(texto.replace("A", "x").replace("a", "x").lowercase())
+    //println(texto.replace("a", "x", ignoreCase = true).lowercase())
+
+    var textoFinal = texto.lowercase()
+    textoFinal = texto.replace("a", "x", true)
+    println(textoFinal)
 }
 
 // f. Sobre as funções criadas nos exercícios b, c e d: é possível transformá-las em funões de uma única linha? Se sim, transforme-as.
