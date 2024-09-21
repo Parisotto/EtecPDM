@@ -17,4 +17,4 @@
     // g. Imprima no terminal o valor do PIB per capita.
 
     // h. Rode seu programa de forma que não possua erros de compilação ou execução.
-teste
+//teste
