@@ -1,3 +1,8 @@
+/*
+    Aula 13: Exercícios de reforço
+    Controle de Fluxo: "if" - Leitura de linha: "readln()" - Conversão para inteiro: "toInt()"
+*/
+
 // 1. Escreva uma rotina capaz de ler dois número inteiros maiores que zero que representam os lados de uma figura geométrica. Informar se formam um quadrado ou um retângulo (lados iguais). Considere que os algulos são retos.
 fun quadrado(){
     print("Informe o valor da base: ")
