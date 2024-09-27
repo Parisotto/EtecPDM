@@ -1,4 +1,4 @@
-// Aula 11: Controle de fluxo "when"
+// Aula 11: Controle de fluxo Condicional "when"
 
 fun main() {
     val bonus = bonusWhen("")

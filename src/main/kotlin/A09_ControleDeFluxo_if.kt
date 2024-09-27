@@ -1,6 +1,6 @@
 import javax.swing.text.StyledEditorKit.BoldAction
 
-// Aula 9: Controle de Fluxo "if"
+// Aula 9: Controle de Fluxo Condicional "if"
 
 // 1
 fun maioridade(idade: Int){

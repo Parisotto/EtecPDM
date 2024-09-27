@@ -1,4 +1,4 @@
-// Aula 14: Controle de Fluxo: "for()"
+// Aula 14: Controle de Fluxo: Laço de repetição "for()"
 
 fun main() {
     for (i in 1..10){

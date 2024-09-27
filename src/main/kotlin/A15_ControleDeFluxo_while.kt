@@ -1,4 +1,4 @@
-// Aula 15: Controle de Fluxo: "while()"
+// Aula 15: Controle de Fluxo: Laço de repetição "while()"
 
 fun main() {
     var i = 0
