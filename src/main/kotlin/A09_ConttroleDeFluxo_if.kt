@@ -1,5 +1,20 @@
 // Aula 9: Controle de Fluxo Condicioanal: "if"
 
+fun main() {
+    maioridade(23)
+    maioridade(15)
+
+    habilitacao(21)
+    habilitacao(13)
+
+    idoso(61)
+    idoso(45)
+
+    ingresso(63)
+    ingresso(11)
+    ingresso(28)
+}
+
 // 1
 fun maioridade(idade: Int){
     if (idade > 17){
@@ -38,19 +53,4 @@ fun ingresso(idade: Int){
         println("4) Paga inteira.")
     }
     println("4a) Bem-vindo ao Parque Feliz")
-}
-
-fun main() {
-    maioridade(23)
-    maioridade(15)
-
-    habilitacao(21)
-    habilitacao(13)
-
-    idoso(61)
-    idoso(45)
-
-    ingresso(63)
-    ingresso(11)
-    ingresso(28)
 }
