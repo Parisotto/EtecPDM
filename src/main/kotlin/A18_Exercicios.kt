@@ -6,16 +6,16 @@
 // CONTROLE DE FLUXO - for()
 
 // 1. Imprima os núeros de 1 a 50 na mesma linha em ordem crescente. Saída esperada:
-//      1 2 3 4 5 6 7 8 9 10 ....... 49 50
+//      1 2 3 4 5 6 7 8 9 10 ....... 49 50. Use for()
 
-// 2. Iprima os números de 1 a 50 na mesma linha em ordem decrescente. Saída esperada:
+// 2. Iprima os números de 1 a 50 na mesma linha em ordem decrescente usando for(). Saída esperada:
 //      50 49 48 47 46 45 ......... 3 2 1
 
-// 3. Usando a resolução do exercício 1, não imprima os números múltiplos de 5.
+// 3. Usando a resolução do exercício 1, não imprima os números múltiplos de 5. Use for()
 
-// 4. Faça a soma de todos os números no intervalo de 1 a 500.
+// 4. Faça a soma de todos os números no intervalo de 1 a 500. Ao final imprima o valor da soma.
 
-/* 5. Escreva um programa capaz de receber um número inteiro N e imprimir uma escada de tamanho N usando o caracter cerquilha (#).
+/* 5. Escreva um programa capaz de receber um número inteiro N e imprimir uma escada de tamanho N usando o caracter cerquilha (#). Use for()
       Exemplo: se a entrada for 5, teremos:
             #
             ##
