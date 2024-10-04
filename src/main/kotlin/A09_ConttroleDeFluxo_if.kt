@@ -13,6 +13,13 @@ fun main() {
     ingresso(63)
     ingresso(11)
     ingresso(28)
+
+    festaDoChopp(11)
+    festaDoChopp(20)
+    festaDoChopp(62)
+
+    println(funcionario(true))
+    println(funcionario(false))
 }
 
 // 1
