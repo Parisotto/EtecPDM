@@ -2,7 +2,7 @@
 
 fun main() {
     var i =0
-/*
+
     while (true) {
         print("$i ")
         i++
@@ -27,7 +27,7 @@ fun main() {
         println("Tudo bem, vamos continuar: ${++i}")
     }
     println()
-*/
+
     val str = "Kotlin"
     var contador = 0
     while (contador < str.length) {
