@@ -9,7 +9,7 @@ fun main() {
     // decrescente()
     // excetoM5()
     // somaSequencia()
-    // escada(9)
+    // escada(5)
     escadaIvertida(7)
 }
 
@@ -36,6 +36,15 @@ fun excetoM5(){
         if(i % 5 != 0){
             print("$i ")
         }
+    }
+}
+
+fun excetoM5Continue(){
+    for (i in 1..50){
+        if(i % 5 == 0){
+            continue
+        }
+        println("$i ")
     }
 }
 
@@ -68,7 +77,7 @@ fun escada(n: Int){
 
 fun escadaIvertida(n: Int){
     for (i in n downTo 1){
-        for (j in i downTo 1){
+        for (j in 1..i){
             print("#.")
         }
         println()
