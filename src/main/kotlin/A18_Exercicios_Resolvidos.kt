@@ -24,7 +24,7 @@ fun main() {
 
 // CONTROLE DE FLUXO - for()
 
-// 1. Imprima os núeros de 1 a 50 na mesma linha em ordem crescente. Saída esperada:
+// 1. Imprima os números de 1 a 50 na mesma linha em ordem crescente. Saída esperada:
 //      1 2 3 4 5 6 7 8 9 10 ....... 49 50. Use for()
 fun crescente(){
     for(i in 1..50){
