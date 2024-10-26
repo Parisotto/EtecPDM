@@ -1,7 +1,5 @@
-import java.lang.Exception
-import java.lang.String.format
-
 // Aula 22: Sobre os parâmetos das funções
+import java.lang.String.format
 
 fun main() {
     // print("Digite um inteiro: ")

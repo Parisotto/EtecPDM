@@ -1,6 +1,7 @@
 // Aula 21: Método ".let"
 
 fun main() {
+    // val str: String? = null
     val str: String? = "hello"
 
     if (str != null){
@@ -15,4 +16,6 @@ fun main() {
         println(it.uppercase())
         println(it.length)
     }
+
+    str ?: println("A variável $str É nula!")
 }
