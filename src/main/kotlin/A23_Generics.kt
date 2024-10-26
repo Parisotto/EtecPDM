@@ -1,9 +1,10 @@
+import java.lang.String.format
+
 // Aula 23: Parâmetro Generics <T>
 
 fun main() {
-    // media(10.0, 8.0, 2000)
-
-    media("Edson", "r", 7.0, 9.0, 8.0)
+    media(10.9, 8.4, 7.3)
+    media("Edson", "r", 10.9, 8.4, 7.3)
 }
 
 fun <T> media(vararg notas: T) {
@@ -16,7 +17,7 @@ fun <T> media(vararg notas: T) {
         }
     }
     // println(soma / notas.size)
-    println(soma / contador)
+    println(format("A média é %.1f", soma / contador))
 }
 
 fun <T, F> media(nome: String, outro: F, vararg notas: T) {
@@ -35,5 +36,5 @@ fun <T, F> media(nome: String, outro: F, vararg notas: T) {
         tipo = "parcial"
     }
     var media = soma / contador
-    println("A média $tipo do aluno $nome é $media")
+    println(format("A média $tipo do aluno $nome é %.1f", media))
 }
