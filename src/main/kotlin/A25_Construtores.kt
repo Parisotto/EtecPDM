@@ -1,6 +1,7 @@
 // Aula 25: Construtores primário e secundario
 class Vazia() // CHAME A CLASSE VAZIA NO MAIN
 class Qualquer private constructor() // CHAME Qualquer no main
+
 class Persona(var nome: String, var anoNasc: Int) {
     var altura: Double = 0.0
     var doc: String? = null

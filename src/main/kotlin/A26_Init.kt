@@ -16,7 +16,7 @@ class Animal(var especie: String) {
         } else if (especie == "gato") {
             fala = "miar"
         } else if (especie == "passaro") {
-            fala = "pia"
+            fala = "piar"
         } else {
             fala = ""
         }
@@ -31,7 +31,7 @@ fun main() {
     // Animal("cachorro")
     var bicho: Animal = Animal("passaro")
     bicho.falar()
-    bicho.fala = "Canta"
+    bicho.fala = "Cantar"
     bicho.falar()
 
     Animal("gato").falar()
