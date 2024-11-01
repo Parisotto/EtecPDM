@@ -1,6 +1,6 @@
 // Aula 25: Construtores primário e secundario
-class Vazia()
-class Qualquer private constructor()
+class Vazia() // CHAME A CLASSE VAZIA NO MAIN
+class Qualquer private constructor() // CHAME Qualquer no main
 class Persona(var nome: String, var anoNasc: Int) {
     var altura: Double = 0.0
     var doc: String? = null
@@ -24,11 +24,13 @@ class Persona(var nome: String, var anoNasc: Int) {
 
 fun main() {
     Vazia()
+    var vazia: Vazia = Vazia()
     // Qualquer()
-    // Nothing() // ctrl + b
+    // var qualquer: Qualquer = Qualquer()
+    // Nothing() // Ctrl + b
 
     var professor: Persona = Persona("Parisotto", 1962)
-    // this - se refere ao objeto instaciado pela classe
+    // this - se refere ao objeto instanciado pela classe
 
     professor.altura
     professor.acordar()

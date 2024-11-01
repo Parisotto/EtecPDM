@@ -5,11 +5,12 @@ class Livro(var titulo: String, var autor: String, var ano: Int, var paginas: In
     var marcador = 0
 
     fun abrirPagina(p: Int) {
-        println("Livro $titulo aberto na página $p")
+        println("\nLivro $titulo aberto na página $p")
     }
 
     fun marcarPagina(p: Int) {
         this.marcador = p
+        print("Marcada a página $marcador")
     }
 }
 
