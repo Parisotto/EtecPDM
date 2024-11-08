@@ -1,4 +1,4 @@
-// Aula 12: readln() (Ler uma linha de entrada
+package a_introducao// Aula 12: readln() (Ler uma linha de entrada
 
 fun main() {
     var nome: String
@@ -20,5 +20,5 @@ fun main() {
     numero = readln().toInt()
     var outroNumero = readln()
 
-    print("A soma de $numero e $outroNumero é ${numero + outroNumero.toInt()}")
+    print("A a_introducao.soma de $numero e $outroNumero é ${numero + outroNumero.toInt()}")
 }

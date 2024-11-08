@@ -1,4 +1,4 @@
-// Aula 9: Controle de Fluxo Condicioanal: "if"
+package a_introducao// Aula 9: Controle de Fluxo Condicioanal: "if"
 
 fun main() {
     maioridade(23)
@@ -44,16 +44,16 @@ fun habilitacao(idade: Int){
 // 3
 fun idoso(idade: Int){
     if (idade > 59){
-        println("3) É um idoso")
+        println("3) É um a_introducao.idoso")
     } else {
-        println("3) Não é um idoso")
+        println("3) Não é um a_introducao.idoso")
     }
 }
 
 // 4
 fun ingresso(idade: Int){
     if (idade > 59){
-        println("4) É um idoso e não paga ingresso.")
+        println("4) É um a_introducao.idoso e não paga a_introducao.ingresso.")
     } else if (idade < 13) {
         println("4) Tem menos de 13 anos e paga meia.")
     } else {

@@ -1,4 +1,4 @@
-import javax.swing.text.Caret
+package a_introducao
 
 // Aula 11: Controle de fluxo Condicional: "when()"
 

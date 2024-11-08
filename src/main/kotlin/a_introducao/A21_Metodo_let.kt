@@ -1,6 +1,8 @@
+package a_introducao
+
 // Aula 21: Método ".let"
 fun main() {
-    val str: String? = "hello"
+    val str: String? = "a_introducao.hello"
 
     if (str != null) {
         str.uppercase()

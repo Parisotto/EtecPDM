@@ -1,3 +1,5 @@
+package a_introducao
+
 import kotlin.math.*
 
 // Aula 7: Funções Matem-áticas

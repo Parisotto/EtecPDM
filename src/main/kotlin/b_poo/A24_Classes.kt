@@ -1,3 +1,5 @@
+package b_poo
+
 //Aula 24: Classes
 class Pessoa
 
@@ -5,7 +7,7 @@ class Livro(var titulo: String, var autor: String, var ano: Int, var paginas: In
     var marcador = 0
 
     fun abirPagina(p: Int){
-        println("\nLivro $titulo aberto na página $p")
+        println("\nb_poo.Livro $titulo aberto na página $p")
     }
 
     fun marcarPagina(p: Int) {

@@ -1,4 +1,4 @@
-// Aula 10: Operadores de Comparação e igualdade, Operadores Lógico e Operador de Intervalo
+package a_introducao// Aula 10: Operadores de Comparação e igualdade, Operadores Lógico e Operador de Intervalo
 
 fun main() {
     var n = 7

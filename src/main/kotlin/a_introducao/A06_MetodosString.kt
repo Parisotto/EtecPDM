@@ -1,10 +1,12 @@
+package a_introducao
+
 // Aula 6: Métodos e propriedades de String
 
 fun main(){
     val str = "Programação Kotlin"
     var msg:String
 
-    msg = "Tamanho da string: ${str.length} caracteres"
+    msg = "Tamanho da string: ${str.length} a_introducao.caracteres"
     // propriedade length (comprimento, tamanho)
 
     msg = "Posição (indíce) 0 da string: ${str[9]}"

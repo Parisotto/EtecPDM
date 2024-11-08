@@ -1,3 +1,5 @@
+package a_introducao
+
 import java.lang.String.format
 
 // Aula 23: Parâmetro Generics <T>
@@ -16,7 +18,7 @@ fun <T> media(vararg notas: T) {
             contador += 1
         }
     }
-    // println(soma / notas.size)
+    // println(a_introducao.soma / notas.size)
     println(format("A média é %.1f", soma / contador))
 }
 

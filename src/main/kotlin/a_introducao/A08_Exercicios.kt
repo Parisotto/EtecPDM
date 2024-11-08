@@ -1,13 +1,13 @@
-/*
+package a_introducao/*
     Aula 8: Exercício de reforço
     Métodos e funções
  */
 
 fun main() {
-    // transformar(2)
-    // println(caracteres("Kotlin"))
-    // cubo(3)
-    // converter(2)
+    // a_introducao.transformar(2)
+    // println(a_introducao.caracteres("Kotlin"))
+    // a_introducao.cubo(3)
+    // a_introducao.converter(2)
     trocarLetras("Anaconda") // xnxcondx
 }
 /* 1. Escreva uma função que seja capaz de receber a quantidade de anos e tranformar em meses, dias, horas, minutos e segundos. Saída desejada:
@@ -28,21 +28,21 @@ fun transformar(anos: Int){
 
 // 2. Escreva uma função capaz de receber um string e retornar a quantidade de carcteres
 fun caracteres(texto: String): String {
-    return "$texto tem ${texto.length} caracteres."
+    return "$texto tem ${texto.length} a_introducao.caracteres."
 }
 
-// 3. Escreva uma função capaz de calcular o cubo de um número inteiro (cubo = n*n*n)
+// 3. Escreva uma função capaz de calcular o a_introducao.cubo de um número inteiro (a_introducao.cubo = n*n*n)
 fun cubo(numero: Int) {
-    print("O cubo de $numero é ${numero * numero * numero}")
+    print("O a_introducao.cubo de $numero é ${numero * numero * numero}")
 }
 
-// 4. Escreva uma função capaz de receber uma medida em milhas e converter em km (1 milha = 1.6 km)
+// 4. Escreva uma função capaz de receber uma medida em milhas e a_introducao.converter em km (1 milha = 1.6 km)
 fun converter(milhas: Int){
     println("$milhas milhas equivalem a ${milhas * 1.6} km")
 }
 
 /* 5. Escreva um programa que seja capaz de receber uma string e fazer a troca todas as letras "a" ou "A" por "x". Observando que:
-    a. Não deve existir lógica dentro da função main. Main só deve ser usada como ponto de entrada.
+    a. Não deve existir lógica dentro da função a_introducao.b_poo.main. Main só deve ser usada como ponto de entrada.
     b. Escrever uma função para a troca de letras e impressão do valor final.
     c. String final deve estar com todas as letras maiúsculas
     Exemplo: Entrada = "Programação em Kotlin" - Saída = "PROGRxMxÇxO EM KOTLIN"
@@ -59,14 +59,14 @@ fun trocarLetras(texto: String){
 
 // 6. Sobre as funções criadas nos exercícios 2, 3 e 4, é possível transfomá-las em fuções de uma única linha? Se sim, trasforme-as.
 fun caracteres2(texto: String): String {
-    return "$texto tem ${texto.length} caracteres."
+    return "$texto tem ${texto.length} a_introducao.caracteres."
 }
-fun caracteres3(texto: String) = "$texto tem ${texto.length} caracteres."
+fun caracteres3(texto: String) = "$texto tem ${texto.length} a_introducao.caracteres."
 
 fun cubo2(numero: Int) {
-    print("O cubo de $numero é ${numero * numero * numero}")
+    print("O a_introducao.cubo de $numero é ${numero * numero * numero}")
 }
-fun cubo3(numero: Int) = print("O cubo de $numero é ${numero * numero * numero}")
+fun cubo3(numero: Int) = print("O a_introducao.cubo de $numero é ${numero * numero * numero}")
 
 fun converter2(milhas: Int){
     println("$milhas milhas equivalem a ${milhas * 1.6} km")

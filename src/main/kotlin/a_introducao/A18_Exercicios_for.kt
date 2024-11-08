@@ -1,20 +1,20 @@
-/*
+package a_introducao/*
     Aula 15: Exercícios de reforço
     Controle de Fluxo: for()
  */
 
 // CONTROLE DE FLUXO - for()
 fun main() {
-    // crescente()
-    // decrescente()
-    // excetoM5()
-    // somaSequencia()
-    // escada(5)
+    // a_introducao.crescente()
+    // a_introducao.decrescente()
+    // a_introducao.excetoM5()
+    // a_introducao.somaSequencia()
+    // a_introducao.escada(5)
     escadaIvertida(7)
 }
 
 
-// 1. Imprima os números de 1 a 50 na mesma linha em ordem crescente. Saída esperada:
+// 1. Imprima os números de 1 a 50 na mesma linha em ordem a_introducao.crescente. Saída esperada:
 //      1 2 3 4 5 6 7 8 9 10 ....... 49 50. Use for()
 fun crescente(){
     for(i in 1..50){
@@ -22,7 +22,7 @@ fun crescente(){
     }
 }
 
-// 2. Imprima os números de 1 a 50 na mesma linha em ordem decrescente usando for(). Saída esperada:
+// 2. Imprima os números de 1 a 50 na mesma linha em ordem a_introducao.decrescente usando for(). Saída esperada:
 //      50 49 48 47 46 45 ......... 3 2 1
 fun decrescente(){
     for(i in 50 downTo 1){
@@ -48,17 +48,17 @@ fun excetoM5Continue(){
     }
 }
 
-// 4. Faça a soma de todos os números no intervalo de 1 a 500. Ao final imprima o valor da soma.
+// 4. Faça a a_introducao.soma de todos os números no intervalo de 1 a 500. Ao final imprima o valor da a_introducao.soma.
 fun somaSequencia(){
     var soma = 0
     for (i in 1..500){
-        // soma = soma + i
+        // a_introducao.soma = a_introducao.soma + i
         soma += i
     }
     println(soma)
 }
 
-/* 5. Escreva um programa capaz de receber um número inteiro N e imprimir uma escada de tamanho N usando o caracter cerquilha (#). Use for()
+/* 5. Escreva um programa capaz de receber um número inteiro N e imprimir uma a_introducao.escada de tamanho N usando o caracter cerquilha (#). Use for()
       Exemplo: se a entrada for 5, teremos:
             #
             ##

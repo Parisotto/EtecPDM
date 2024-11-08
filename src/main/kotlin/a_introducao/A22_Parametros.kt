@@ -1,11 +1,11 @@
-// Aula 22: Sobre os parâmetros das funções: vararg
+package a_introducao// Aula 22: Sobre os parâmetros das funções: vararg
 
 fun main() {
-    // parOuImpar(9)
-    // parOuImpar(7, 8)
-    // parOuImpar(8, 9, 7)
+    // a_introducao.parOuImpar(9)
+    // a_introducao.parOuImpar(7, 8)
+    // a_introducao.parOuImpar(8, 9, 7)
     //    print("Digite um inteiro: ")
-    //    parOuImpar(readln().toInt())
+    //    a_introducao.parOuImpar(readln().toInt())
     parOuImparComVararg(8, 9, 5, 0, 13)
 }
 

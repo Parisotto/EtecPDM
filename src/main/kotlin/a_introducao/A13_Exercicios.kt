@@ -1,15 +1,15 @@
-/*
+package a_introducao/*
     Aula 13: Exercícios de reforço
     - Controle de fluxo: "if()"
     - Leitura de linha: "readln()
     - Conversão de inteiro: "toInt()"
  */
 fun main() {
-    // quadrado()
+    // a_introducao.quadrado()
     triangulo()
 }
 
-// 1. Escreva uma rotina capaz de ler dois números inteiros maiores que zero que representam os lados de uma figura geométrica quadrada ou retangular. Informar se é um quadrado ou retangulo.
+// 1. Escreva uma rotina capaz de ler dois números inteiros maiores que zero que representam os lados de uma figura geométrica quadrada ou retangular. Informar se é um a_introducao.quadrado ou retangulo.
 fun quadrado(){
     var lado1: Int
     var lado2: Int
@@ -21,7 +21,7 @@ fun quadrado(){
     lado2 = readln().toInt()
 
     if (lado1 == lado2) {
-        println("É um quadrado!")
+        println("É um a_introducao.quadrado!")
     } else {
         println("É um retângulo!")
     }

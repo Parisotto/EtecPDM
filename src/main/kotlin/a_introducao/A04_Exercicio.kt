@@ -1,9 +1,9 @@
-/*
+package a_introducao/*
     Aula 4: Exercícios de reforço
     Variáveis, tipo de dados e operadores aritméticos
 */
 
-// a. Crie um novo arquivo chamado A04_Exercicio.kt com uma função main.
+// a. Crie um novo arquivo chamado A04_Exercicio.kt com uma função a_introducao.b_poo.main.
 fun main(){
     // b. Declare uma variável mutável capaz de armazenar seu nome completo.
     var nome = "Edson Luiz Parisotto"

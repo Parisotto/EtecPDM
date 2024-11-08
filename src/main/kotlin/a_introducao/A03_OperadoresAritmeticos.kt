@@ -1,9 +1,9 @@
-// Aula 3: Operadores Aritméticos: ( + - * / % )
+package a_introducao// Aula 3: Operadores Aritméticos: ( + - * / % )
 
 fun main() {
     var idade = 20
     //idade = idade + 1
-    idade += 1 // soma (+)
+    idade += 1 // a_introducao.soma (+)
     //idade = idade - 5
     idade -= 5 // subtração (-)
     //idade = idade * 2

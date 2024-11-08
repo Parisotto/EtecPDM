@@ -1,4 +1,4 @@
-// Aula 5: Funções
+package a_introducao// Aula 5: Funções
 
 fun bomDia(){
     println("Bom dia!")
@@ -30,7 +30,7 @@ fun mensagem(idade: Int, nome: String) = println("Você tem $idade, $nome?")
 
 
 fun main(){
-    println("println() é uma funçpão utilitária e main() tambhém é uma função")
+    println("println() é uma funçpão utilitária e a_introducao.b_poo.main() tambhém é uma função")
 
     bomDia()
     bomDia()

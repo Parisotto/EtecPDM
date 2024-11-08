@@ -1,4 +1,4 @@
-// Aula 2: Variáveis e tipos de dado
+package a_introducao// Aula 2: Variáveis e tipos de dado
 
 fun main() {
     val umByte: Byte = 127 // 1 byte ou 8 bits: -128 a 127
@@ -11,7 +11,7 @@ fun main() {
 
     val umBoolean: Boolean = true // 1 bit: 0 ou 1
     val umChar: Char = 'a' // 1 byte ou 8 bits
-    val umString: String = "Cadeia de caracteres." // Tamanho indefinido.
+    val umString: String = "Cadeia de a_introducao.caracteres." // Tamanho indefinido.
 
     println("Byte MIN ${Byte.MIN_VALUE} - MAX ${Byte.MAX_VALUE}")
     println("Short MIN ${Short.MIN_VALUE} - MAX ${Short.MAX_VALUE}")

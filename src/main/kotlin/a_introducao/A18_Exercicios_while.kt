@@ -1,3 +1,5 @@
+package a_introducao
+
 /*
     Aula 15: Exercícios de reforço
     Controle de Fluxo: while()
@@ -5,13 +7,13 @@
 
 // CONTROLE DE FLUXO - while()
 fun main(){
-    // litros3()
-    // fizzBuzz()
-    // inverter("Meu nome é Asdrúbal")
+    // a_introducao.litros3()
+    // a_introducao.fizzBuzz()
+    // a_introducao.inverter("Meu nome é Asdrúbal")
     println(contaXeO("xxxooo"))
 }
 
-// 1. Considere uma caixa d'água de 2 mil litros. Rômulo gostaria de encher a cahixa d'água com balões de 7 litros. Quantos balões cabem na caixa d'água sem que o volume seja excedido? Crie uma rotina usando while() que retorne a resposta.
+// 1. Considere uma caixa d'água de 2 mil a_introducao.litros. Rômulo gostaria de encher a cahixa d'água com balões de 7 a_introducao.litros. Quantos balões cabem na caixa d'água sem que o volume seja excedido? Crie uma rotina usando while() que retorne a resposta.
 fun litros(){
     var caixa = 2000
     var numBaloes = 0
@@ -36,7 +38,7 @@ fun litros3(){
 }
 
 /* 2. FizzBuzz
-    Imprima os números de 1 a 50 em ordem crescente de acordo com a regra abaixo. Use while() ou do while()
+    Imprima os números de 1 a 50 em ordem a_introducao.crescente de acordo com a regra abaixo. Use while() ou do while()
         a. Quando um número for divisível por 3, imprimir Buzz.
         b. Quando um número for divisível por 5, imprimir Fizz.
         c. Quando um número for divisível por 3 e 5 simultaneamente, imprimir FizzBuzz
@@ -70,7 +72,7 @@ fun inverter(texto: String) {
     } while (i >= 0)
 }
 
-// 4. Escreva uma função que recebe uma string, verifica se existe a mesma quantidade de caracteres "x" e "o" e retorna true ou false. Caso não exista nem "x" nem "o", retornar false. Use while() ou do while()
+// 4. Escreva uma função que recebe uma string, verifica se existe a mesma quantidade de a_introducao.caracteres "x" e "o" e retorna true ou false. Caso não exista nem "x" nem "o", retornar false. Use while() ou do while()
 fun contaXeO(texto: String): Boolean {
     var txt = texto.lowercase()
     var numX = 0
