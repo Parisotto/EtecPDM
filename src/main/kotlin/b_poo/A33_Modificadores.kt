@@ -2,7 +2,7 @@ package b_poo // Aula 33: Modificadores de Visibilidade -> private, public e pro
 
 private class Inutil // visivel somente no arquivo
 
-open class Eletronic(private var marca: String){
+open class Eletronic2(private var marca: String){
     private var sistema: String = ""
     // private fun ativarCorrente(){ // private abstraiu a classe / só a classe enxerga
 
@@ -10,7 +10,7 @@ open class Eletronic(private var marca: String){
         sistema = "Android"
         println("$marca ligado")
     }
-    fun ligar(){
+    fun ligar() {
         ativarCorrente() // tenho acesso sendo private ou protect
         Inutil()
     }
@@ -19,12 +19,12 @@ open class Eletronic(private var marca: String){
 }
 
 // public class é redundante
-class Computer(marca: String) : Eletronic(marca) { // "public marca" é redundante
+class Computer2(marca: String) : Eletronic2(marca) { // "public marca" é redundante
     fun processar(){
         //ativarCorrente() -> é private
         ligar()
         //println($marca) -> se acesso porque não foi declara "var marca"
-        ativarCorrente() // tenho acesso porque é private na class Eletronic
+        ativarCorrente() // tenho acesso porque é protected na class Eletronic
     }
     fun armazenarDados(){
         Inutil()
@@ -32,7 +32,7 @@ class Computer(marca: String) : Eletronic(marca) { // "public marca" é redundan
 }
 
 fun main() {
-    var c: Computer = Computer("DELL")
+    var c: Computer2 = Computer2("DELL")
 
     c.ligar()
     c.desligar()
@@ -40,4 +40,6 @@ fun main() {
     // c.ativarCorrente() -> é private ou protect
     Inutil()
 
+    var e: Eletronic2 = Eletronic2("Apple")
+    e.ligar()
 }

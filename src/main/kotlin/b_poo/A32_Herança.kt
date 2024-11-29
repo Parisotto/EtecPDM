@@ -15,8 +15,6 @@ class Computador(marca: String) : Eletronico(marca) {
     }
 }
 
-
-
 fun main() {
     var c: Computador = Computador("DELL")
     var c2: Computador = Computador("Acer")

@@ -18,6 +18,7 @@ fun main() {
     // Lista -> listOf(): é um colection / coleção da classe List
     // List é IMUTÁVEL, sempre do tipo val
     // List é um conjunto ordenado e aceita valores duplicados
+    // Lista Mutável -> mutableListOf()  // a versão mutável da list
 
     val listaNumeros = listOf(1, 2, "tres", 4.7, 5, 6, true, 2)
     val listaNumerosInt: List<Int> = listOf(7, 9, 13, 0, 9)
@@ -30,6 +31,7 @@ fun main() {
     // listaPaises.add("Argentina")
 
     // MutableList é uma List que aceita mudanças
+    // Uso: Ideal para quando você precisa adicionar, remover ou modificar elementos dinamicamente.
     val listaMutavel: MutableList<String> = mutableListOf("janeiro", "fevereiro", "março")
     println(listaMutavel)
     println(listaMutavel[0])
@@ -43,6 +45,4 @@ fun main() {
 
     listaMutavel.removeAt(1)
     println(listaMutavel)
-
-
 }

@@ -2,7 +2,9 @@ package b_poo
 
 // Aula 25: Construtores primário e secundario
 class Vazia() // CHAME A CLASSE VAZIA NO MAIN
-class Qualquer private constructor() // CHAME Qualquer no main
+class Qualquer private constructor() {
+    fun boba(){}
+}// CHAME Qualquer no main
 
 class Persona(var nome: String, var anoNasc: Int) {
     var altura: Double = 0.0

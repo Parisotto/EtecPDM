@@ -158,5 +158,5 @@ fun contaXeO(texto: String): Boolean {
         return false
     }
  */
-    return numX == numO && numX != 0
+    return numX == numO || numX != 0
 }

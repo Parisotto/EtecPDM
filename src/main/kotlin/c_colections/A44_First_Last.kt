@@ -4,15 +4,15 @@ fun main() {
     var bananas: List<Any> = listOf()
     bananas = listOf("nanica")
 
-    println("Primeira reeita: ${ data.first().nome }")
-    println("Última Receita: ${ data.last().nome } ")
+    println("Primeira reeita: ${ data.first().nome }") // Lasanha
+    println("Última Receita: ${ data.last().nome } ")  // Hamburguer
 
     // bananas.first() -> lança exceção porque a lista está vazia: List is empty
-    println(bananas.firstOrNull())
-    println(bananas.lastOrNull())
+    println(bananas.firstOrNull())  // nanica
+    println(bananas.lastOrNull())  // nanica
 
-    println("O primeiro elemento é: ${if (bananas.firstOrNull() == "null") "nenhum" else bananas.firstOrNull()}")
-    println("O último elemento é: ${if (bananas.lastOrNull() == "null") "nenhum" else bananas.lastOrNull()}")
+    println("O primeiro elemento é: ${if (bananas.firstOrNull() == "null") "nenhum" else bananas.firstOrNull()}")  // nanica
+    println("O último elemento é: ${if (bananas.lastOrNull() == "null") "nenhum" else bananas.lastOrNull()}")  // nanica
 }
 
 

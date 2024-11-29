@@ -1,4 +1,4 @@
-// Aula 34: Override (substituir/sobrescrita) e Overload (sobrecarga)
+// Aula 34: POLIMORFISMO: Override (substituir/sobrescrita) e Overload (sobrecarga)
 
 open class Eletronico(var marca: String) {
     private fun corrente(ativo: Boolean){
@@ -19,7 +19,7 @@ class Computador(marca: String) : Eletronico(marca) {
     fun save(){
         println("Arquivos salvos.")
     }
-    // overload
+    // overload, sobrecarga
     fun save(parametro: Int){}
     fun save(parametro: Double){}
     fun save(parametro: Boolean){}
@@ -29,8 +29,12 @@ class Computador(marca: String) : Eletronico(marca) {
     fun save(parametro: Int, parametro2: String){}
     fun save(parametro: Int, parametro2: Int){}
 
+    // sobrecarga de herança
+    fun ligar(parametro: String){}
 
-    override fun desligar(){ // sobrescrita
+    // fun desligarComputador() {
+    // override, sobrescrita
+    override fun desligar(){
         save(1, 2)
         super.desligar()
     }

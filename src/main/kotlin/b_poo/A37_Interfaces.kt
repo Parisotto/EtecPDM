@@ -1,5 +1,6 @@
 // Aula 37: Interfaces
 interface Selvagem {
+    var atributo: Int
     fun ataque()
     fun predar(){
         println("Caçador")
@@ -14,7 +15,7 @@ interface Ave {
 }
 
 abstract class Animal{
-    val atributo = 0
+    val atributo: Int = 0
     abstract fun alimento()
 }
 

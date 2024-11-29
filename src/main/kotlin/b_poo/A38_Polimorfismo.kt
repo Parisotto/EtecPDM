@@ -8,16 +8,16 @@ fun main() {
     mostrarBonus(Developer(11500.00))
 }
 /*
-fun mostrarBonus(tl: TechLead) {
-    println(tl.bonus())
+fun mostrarBonus(funcionario: TechLead) {
+    println(funcionario.bonus())
 }
 
-fun mostrarBonus(dev: Developer) {
-    println(dev.bonus())
+fun mostrarBonus(funcionario: Developer) {
+    println(funcionario.bonus())
 }
 */
-fun mostrarBonus(func: Funcionario) {
-    println(func.bonus())
+fun mostrarBonus(funcionario: Funcionario) {
+    println(funcionario.bonus())
 }
 
 interface Funcionario {  // ou abstract class Funcionario

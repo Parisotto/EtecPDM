@@ -3,11 +3,11 @@ fun main() {
     val data = geraDados()
     val bananas = listOf<Any>()
 
-    println("Tem dados?: ${if (data.any()) "sim" else "não"}")
-    println("Tem ${data.count()} elementos")
+    println("Tem dados?: ${if (data.any()) "sim" else "não"}") // sim
+    println("Tem ${data.count()} elementos")  // Tem 6 elementos
 
-    println("Tem bananas?: ${if (bananas.any()) "sim" else "não"}")
-    println("Tem ${bananas.count()} bananas")}
+    println("Tem bananas?: ${if (bananas.any()) "sim" else "não"}") // não
+    println("Tem ${bananas.count()} bananas")}  //  Tem 0 bananas
 
 fun geraDados(): List<Receita> {
     return listOf(

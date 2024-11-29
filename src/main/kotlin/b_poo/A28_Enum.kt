@@ -1,7 +1,7 @@
 package b_poo
 
 // Aula 28: Enum (enumerador)
-enum class AnimalEnum{
+enum class AnimalEnum {
     Chachorro,
     Gato,
     Pássaro,
@@ -10,7 +10,7 @@ enum class AnimalEnum{
     Tartaruga
 }
 
-enum class Prioridade {
+enum class Prioridade() {
     Baixa, Media, Alta, Máxima
 }
 

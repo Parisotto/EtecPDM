@@ -55,7 +55,7 @@ fun main() {
 }
 
 class FormaGeo(val a: Int, val b: Int)
-data class FormaGeoData(val a: Int, val b: Int){
+data class FormaGeoData(val a: Int, val b: Int) {
 
 }
 

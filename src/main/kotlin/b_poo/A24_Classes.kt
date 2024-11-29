@@ -3,7 +3,7 @@ package b_poo
 // Aula 24: Classes
 class Pessoa
 
-class Livro(var titulo: String, var autor: String, var ano: Int, var paginas: Int) {
+class Livro(var titulo: String, var autor: String, var ano: Int, var paginas: Int = 300) {
     var marcador = 0
 
     fun abrirPagina(p: Int) {
@@ -28,7 +28,8 @@ fun main() {
     gente
 
     var meuLivro: Livro = Livro("Duna", "Frank Hebert", 1965, 680)
-    var proximoLivro: Livro = Livro("Fundação", "Isaac Asimov", 1951, 240)
+    var proximoLivro: Livro = Livro("Fundação", "Isaac Asimov", 1951
+    )
 
     println(meuLivro.titulo)
     meuLivro.marcarPagina(9)
